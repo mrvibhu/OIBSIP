@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collecting Data from User</title>
+    <style>
+        body{
+            background: url(ttt.webp) no-repeat;
+            background-size: cover;
+            color: rgb(255, 140, 0);
+            font-family: cursive;
+            text-align: center;
+            font-weight: 600;
+            margin-top: 15%; 
+            box-sizing: content-box;
+            margin-left: 33%;
+        }
+        .decor:focus{
+            background-color: #a8e7ed;
+        }
+        #submit-btn{
+            background-color: rgb(132, 180, 11);
+        }
+        #submit-btn:hover{
+            background: rgb(69, 149, 152);
+        }
+    </style>
+</head>
+<body >
+    <fieldset style="width: 500px;">
+        <legend>Details</legend>
+        <form method="post" target="_blank">
+            <label for="First Name" >Enter Your Name :</label>
+                <input type="text"name="FirstName" id="firstname"class="decor">
+                <br>
+                <br>
+                <label for="quantity">Select Number of persons :</label>
+                <input type="number">
+                <br>
+                <br>
+                <!-- Label For E-mail Address -->
+                <label for="E-mail">Enter Your E-mail :</label>
+                <input type="email" name="FatherName" id="fathername"class="decor">
+                <br>
+                <br>
+                <!-- Label For Mobile Number -->
+                <label for="Mobile Number">Enter Your Mobile Number :</label>
+                <input type="number" name="MobileNumber" id="mobilenumber"class="decor">
+                <br>
+                <br>
+                <!-- Enter Address -->
+                Please Enter  Places you want to visit : 
+                <!-- <br> -->
+                <textarea cols="20" rows="1"class="decor"></textarea>
+                <br>
+                <br>
+                <!-- Label For Password -->
+                <!-- <label for="Password">Create a Password :</label>
+                <input type="password" name="Password" id="password">
+                <br>
+                <br> -->
+                <!-- Label for submit Button -->
+                <input type="submit" id="submit-btn" name="submit">
+        </form>
+    </fieldset>
+</body>
+</html>
